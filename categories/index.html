@@ -24,7 +24,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://aikikoy.github.io/categories/" />
-
+<meta property="og:updated_time" content="2021-03-24T22:06:18+08:00" />
 
 
 
@@ -96,7 +96,7 @@
     <i class="large link bullseye icon dream-flip-toggle" title="翻转！"></i>
   </div>
   <div class="item">
-    <i class="large link home icon" title="首页" onclick="window.location.href = 'https:\/\/aikikoy.github.io'"></i>
+    <i class="large link home icon" title="首页" onclick="window.location.href = 'https:\/\/aikikoy.github.io\/'"></i>
   </div>
   
   <div class="item">
@@ -129,6 +129,10 @@
 
     <article class="ui horizontal list">
       
+      <a class="item" href="/posts">
+        <i class="archive icon" title="归档"></i>
+      </a>
+      
       <a class="item" href="/categories">
         <i class="th list icon" title="所有分类"></i>
       </a>
@@ -138,6 +142,22 @@
     </article>
 
     
+    <article class="dream-tags">
+    
+      <a class="ui label" href="/tags/%E6%97%85%E6%B8%B8/" title="旅游">
+        旅游
+      </a>
+    
+      <a class="ui label" href="/tags/%E6%B5%B7%E6%B4%8B%E4%B9%90%E5%9B%AD/" title="海洋乐园">
+        海洋乐园
+      </a>
+    
+      <a class="ui label" href="/tags/%E7%BE%8E%E7%85%A7/" title="美照">
+        美照
+      </a>
+    
+    </article>
+    
   </div>
 </header>
 
@@ -145,11 +165,25 @@
 <div class="ui container">
   <article class="ui segment dream-categories-section">
     <h2 class="ui header">所有分类<div class="ui grey sub header">
-        0 分类
+        1 分类
       </div>
     </h2>
 
     
+    
+    <h3 class="ui header">
+      <a href="/categories/%E7%94%9F%E6%B4%BB/">生活</a>&nbsp;2篇文章</h3>
+    <ul>
+      
+      <li>
+        <a href="/posts/beautiful_girl/">Beautiful_girl</a>
+      </li>
+      
+      <li>
+        <a href="/posts/ocean_park/">海洋公园</a>
+      </li>
+      
+    </ul>
     
   </article>
 </div>
@@ -181,6 +215,10 @@
 
     <article class="ui horizontal list">
       
+      <a class="item" href="/posts">
+        <i class="archive icon" title="归档"></i>
+      </a>
+      
       <a class="item" href="/categories">
         <i class="th list icon" title="所有分类"></i>
       </a>
@@ -189,6 +227,22 @@
       </a>
     </article>
 
+    
+    <article class="dream-tags">
+    
+      <a class="ui label" href="/tags/%E6%97%85%E6%B8%B8/" title="旅游">
+        旅游
+      </a>
+    
+      <a class="ui label" href="/tags/%E6%B5%B7%E6%B4%8B%E4%B9%90%E5%9B%AD/" title="海洋乐园">
+        海洋乐园
+      </a>
+    
+      <a class="ui label" href="/tags/%E7%BE%8E%E7%85%A7/" title="美照">
+        美照
+      </a>
+    
+    </article>
     
   </div>
 </header>
@@ -299,7 +353,7 @@
 </div>
 <script>
   $(document).ready(function () {
-    $.getJSON('https:\/\/aikikoy.github.io/index.json', function (data) {
+    $.getJSON('https:\/\/aikikoy.github.io\//index.json', function (data) {
       $('.ui.search').search({
         source: data,
         searchFields: ['title'],
